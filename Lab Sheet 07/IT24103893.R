@@ -1,4 +1,4 @@
-setwd("C://Users//New//OneDrive//Desktop//IT24103976")
+setwd("C://Users//New//OneDrive//Desktop//IT24103893")
 ##Q1
 
 prob_q1 <- (25 - 10) / (40 - 0)
@@ -20,5 +20,6 @@ cat("Q3(i): Probability IQ > 130 =", prob_q3_i, "\n")
 
 iq_95 <- qnorm(0.95, mean=mean_iq, sd=sd_iq)
 cat("Q3(ii): 95th percentile IQ score =", iq_95, "\n")
+
 
 
